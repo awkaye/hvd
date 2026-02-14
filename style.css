@@ -1,0 +1,50 @@
+body { 
+background-color: #fabbd8;
+}
+h1.head {
+font-family: Brush Script MT;
+font-weight: normal;
+text-align: center;
+font-size: 64px;
+}
+img.gif {
+width: 150px;
+height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+p.question {
+text-align: center;
+font-family: Georgia;
+font-size: 24px;
+}
+.button {
+  list-style-type: none;
+  margin: 0;
+  padding: 50;
+  overflow: hidden;
+}
+
+.button .option {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  background-color: #f533bb;
+  border-radius: 30px;
+}
+
+.button .option .yesno {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+}
+
+.button .option .yesno:hover {
+  background-color: #ed6fc7;
+  border-radius: 30px;
+  
+}
