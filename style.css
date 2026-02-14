@@ -97,3 +97,9 @@ transform: scale(1.25);
   border-radius: 30px;
   transform: scale(1.08);
 }
+h1.card {
+font-family: Courier;
+font-weight: normal;
+text-align: center;
+font-size: 24px;
+}
