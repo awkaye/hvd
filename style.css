@@ -41,10 +41,59 @@ font-size: 24px;
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .button .option .yesno:hover {
   background-color: #ed6fc7;
   border-radius: 30px;
+  transform: scale(1.08);
   
+}
+h1.flowers {
+font-family: Times New Roman;
+font-weight: normal;
+text-align: center;
+font-size: 36px;
+}
+img.foru {
+width: 250px;
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: 0.3s;
+}
+img.foru:hover {
+transform: scale(1.25);
+}
+.proceed {
+  list-style-type: none;
+  margin: 0;
+  padding: 50;
+  overflow: hidden;
+}
+
+.proceed .next {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  background-color: #f533bb;
+  border-radius: 30px;
+}
+
+.proceed .next .li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.proceed .next .li:hover {
+  background-color: #ed6fc7;
+  border-radius: 30px;
+  transform: scale(1.08);
 }
